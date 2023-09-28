@@ -1,0 +1,224 @@
+{
+
+
+  "name": "سورس سيثون - SOURCE CETHON",
+
+
+  "description": "أهلًا بك في الإصدار الأول من سورس السيد  - @CETHON",
+
+
+  "logo": "https://telegra.ph/file/b43fddbda0078bd3cfd77.jpg",
+
+
+  "keywords": [
+
+
+    "plugin",
+
+
+    "modular",
+
+
+    "productivity"
+
+
+  ],
+
+
+  "repository": "https://github.com/cethon1/cethon",
+
+
+  "website": "#TODO",
+
+
+  "success_url": "#TODO",
+
+
+  "env": {
+
+
+    "ALIVE_NAME": {
+
+
+      "description": "اســم حســـابك التلـي",
+
+
+      "value": ""
+
+
+    },
+
+
+    "APP_ID": {
+
+
+      "description": "كـود ايبي ايـدي〔 App id 〕الصغيـر", 
+
+
+      "value": ""
+
+
+    },
+
+
+    "API_HASH": {
+
+
+      "description": "كـود ايبي هـاش〔 Api hash 〕..",
+
+
+      "value": ""
+
+
+    },
+
+
+    "ENV": {
+
+
+      "description": "لا تغيــرهـــا",
+
+
+      "value": "ANYTHING"
+
+
+    },
+
+
+    "COMMAND_HAND_LER": {
+
+
+      "description": "لا تغيــرهـــا",
+
+
+      "value": "."
+
+
+    },
+
+
+    "STRING_SESSION": {
+
+
+      "description": "كـــود تيـــرمكـــس - الكـود الكبيـر مـن حـافظـة حسـابـك",
+
+
+      "value": ""
+
+
+    },
+
+
+    "TG_BOT_TOKEN": {
+
+
+      "description": "تـــوكـــن البـــوت - من بـوت فـاذر〔 @Botfather 〕..",
+
+
+      "value": ""
+
+
+    },
+
+
+    "HEROKU_API_KEY": {
+      "description": "كـــود مفتـــاح هيروكـــو - تروح ع الرابـط » https://dashboard.heroku.com/account  ع آخـر خانـه تضغط Reveal وتنسـخ الكـود لهنـا",
+      "value": "",
+      "required": false
+    },
+    "HEROKU_APP_NAME": {
+      "description": "اســـم التطبيـــق - نفـس اول مربـع بالقائمـة نسـخ لصـق حـروف انكلـش صغيـره",
+      "value": "",
+      "required": false
+    },
+    "TZ": {
+
+
+      "description": "المنطقـــه الزمنيـــه لا تغيــرهـــا",
+
+
+      "value": "Asia/Baghdad",
+
+
+      "required": false
+
+
+    }
+
+
+  },
+
+
+  "addons": [{
+
+
+    "plan": "scalingo-postgresql",
+
+
+    "options": {
+
+
+      "version": "12"
+
+
+    }
+
+
+  }],
+
+
+  "buildpacks": [{
+
+
+    "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+
+
+  },{
+
+
+    "url":"https://github.com/heroku/heroku-buildpack-google-chrome"
+
+
+  },{
+
+
+    "url":"https://github.com/heroku/heroku-buildpack-chromedriver"
+
+
+  },{
+
+
+    "url": "https://github.com/riganf/heroku-buildpack-p7zip"
+
+
+  },{
+
+
+    "url": "https://github.com/heroku/heroku-buildpack-apt.git"
+
+
+  },{
+
+
+    "url": "https://github.com/chrismytton/heroku-buildpack-jq"
+
+
+  },{
+
+
+    "url": "https://github.com/rahulps1000/heroku-buildpack-nodejs"
+
+
+  },{
+
+
+    "url": "heroku/python"
+
+
+  }],
+
+
+  "stack": "heroku-22"
+
+
+}
